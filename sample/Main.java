@@ -4,6 +4,8 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
@@ -13,7 +15,7 @@ import java.io.IOException;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception, IOException{
         /*FXMLLoader loader = new FXMLLoader(getClass().getResource("sample.fxml"));
         Parent root = loader.load();
         primaryStage.setScene(new Scene(root));
@@ -22,9 +24,24 @@ public class Main extends Application {
 
         Scene scene = new Scene(root);
 
+        MouseEvent e = null;
+
+        primaryStage.setTitle("Le scelte di Amaya");
+
         primaryStage.setScene(scene);
+        primaryStage.setMaxWidth(900);
+        primaryStage.setMaxHeight(506);
+        primaryStage.setMinWidth(900);
+        primaryStage.setMinHeight(560);
+
         primaryStage.setOnCloseRequest(event -> {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("close.fxml"));
+            Controller exit = new Controller();
+            try {
+                exit.exit(e);
+            } catch (IOException ioException) {
+                ioException.printStackTrace();
+            }
+            /*FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("close.fxml"));
             Parent r = null;
             try {
                 r = fxmlLoader.load();
@@ -35,8 +52,7 @@ public class Main extends Application {
             stage.initModality(Modality.APPLICATION_MODAL);
             stage.setTitle("Chiudi");
             stage.setScene(new Scene(r,300, 180));
-            stage.showAndWait();
-
+            stage.showAndWait();*/
         });
         primaryStage.show();
     }

@@ -4,14 +4,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
+<?extends Controller.java?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/55/ee/c1/55eec1570d96c09b82d0667b0aa98471.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Text layoutX="61.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bene (nome), la tua missione è aiutare Amaya a superare un&#10;                momento critico della sua adolescenza, affrontando eventi piuttosto comuni e poco&#10;                piacevoli e cercando di uscirne nel modo migliore. Buona fortuna!&#10;               &#10;&#10; Amaya: ragazza di 15 anni, frequentante la seconda &#10;                superiore e con un carattere piuttosto introverso, a causa di una critica &#10;                situazione familiare. Non ha molti amici, fatta eccezione per Gwen e Harrison, &#10;                suoi compagni di classe.&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
+      <Text layoutX="34.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bene , la tua missione è aiutare Amaya a superare un&#10;momento critico della sua adolescenza, affrontando eventi piuttosto comuni e poco piacevoli e cercando di uscirne nel modo migliore. Buona fortuna!&#10;               &#10;Amaya: ragazza di 15 anni, frequentante la seconda superiore e con un carattere piuttosto introverso, a causa di una critica situazione familiare. Non ha molti amici, fatta eccezione per Gwen e Harrison, suoi compagni di classe.&#10;" wrappingWidth="222.99745178222656">
          <font>
-            <Font size="14.0" />
+            <Font name="Papyrus" size="14.0" />
          </font></Text>
-      <Button layoutX="334.0" layoutY="421.0" mnemonicParsing="false" onMouseClicked="#vaiInizio1" text="AVANTI" />
-      <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
+      <Button layoutX="114.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#vaiInizio1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="AVANTI">
+         <font>
+            <Font name="Optima" size="12.0" />
+         </font></Button>
+      <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="EXIT" />
    </children>
 </AnchorPane>

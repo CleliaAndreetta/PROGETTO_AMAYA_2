@@ -7,18 +7,24 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-image: url('https://i.pinimg.com/originals/ed/75/fd/ed75fdec63fd8f9358efa48d0655d990.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://cdn.discordapp.com/attachments/830783411592364063/842789949391634502/32744.jpg');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    
    <children>
-      <TextField fx:id="nome" layoutX="273.0" layoutY="202.0" onKeyTyped="#nome" promptText="Inserisci il tuo nome" />
-      <Button layoutX="323.0" layoutY="267.0" mnemonicParsing="false" onMouseClicked="#onClick" text="START" />
+      <TextField fx:id="nome" layoutX="375.0" layoutY="227.0" onKeyTyped="#nome" promptText="Inserisci il tuo nome" style="-fx-border-color: white;" />
+      <Button layoutX="421.0" layoutY="279.0" mnemonicParsing="false" onMouseClicked="#onClick" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="START">
+         <font>
+            <Font name="Optima" size="12.0" />
+         </font></Button>
       <Text layoutX="250.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="196.00001525878906" />
-      <Text layoutX="180.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le scelte di Amaya&#10;">
+      <Text fill="#3d2b1f" layoutX="255.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le scelte di Amaya&#10;">
          <font>
             <Font name="Optima" size="48.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Text>
-      <Button fx:id="exit" layoutX="615.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
+      <Button fx:id="exit" layoutX="793.0" layoutY="425.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-border-radius: 10px; -fx-background-radius: 10px; -fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA;" text="EXIT" />
    </children>
    <cursor>
       <Cursor fx:constant="HAND" />

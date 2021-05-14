@@ -5,15 +5,14 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="180.0" prefWidth="300.0" style="-fx-background-color: #c5e8ff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Text layoutX="73.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sei sicuro di voler uscire?">
          <font>
-            <Font size="14.0" />
+            <Font name="Optima" size="14.0" />
          </font>
       </Text>
-      <Button fx:id="si" layoutX="57.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#si" prefHeight="25.0" prefWidth="40.0" text="Si" />
-      <Button fx:id="no" layoutX="199.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#no" prefHeight="25.0" prefWidth="40.0" text="No" />
+      <Button fx:id="si" layoutX="57.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#si" prefHeight="25.0" prefWidth="40.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="Si" />
+      <Button fx:id="no" layoutX="199.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#no" prefHeight="25.0" prefWidth="40.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="No" />
    </children>
 </AnchorPane>
