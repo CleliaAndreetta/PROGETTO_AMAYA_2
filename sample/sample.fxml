@@ -10,7 +10,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-image: url('https://i.pinimg.com/originals/ed/75/fd/ed75fdec63fd8f9358efa48d0655d990.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    
    <children>
-      <TextField fx:id="nome" layoutX="273.0" layoutY="202.0" promptText="Inserisci il tuo nome" />
+      <TextField fx:id="nome" layoutX="273.0" layoutY="202.0" onKeyTyped="#nome" promptText="Inserisci il tuo nome" />
       <Button layoutX="323.0" layoutY="267.0" mnemonicParsing="false" onMouseClicked="#onClick" text="START" />
       <Text layoutX="250.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="196.00001525878906" />
       <Text layoutX="180.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le scelte di Amaya&#10;">

@@ -7,6 +7,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -16,14 +17,17 @@ import java.io.IOException;
 public class Controller{
 
     @FXML
-    private TextField nome;
+    private Button no;
 
     @FXML
-    private Button exit, si, no;
+    private TextField nome;
+
+    String nomeInput;
 
     @FXML
     void onClick(MouseEvent event) throws IOException {
         Parent tableViewParent = FXMLLoader.load(getClass().getResource("introduzione.fxml"));
+        System.out.println(nomeInput);
         Scene tableViewScene = new Scene(tableViewParent);
         //This line gets the Stage information
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -87,6 +91,12 @@ public class Controller{
     @FXML
     void si(MouseEvent event) {
         System.exit(0);
+    }
+
+    //prende un parametro in input (sample)
+    @FXML
+    void nome(KeyEvent event) {
+       nomeInput = (String) nome.getText();
     }
 }
 
