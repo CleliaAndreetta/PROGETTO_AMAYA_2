@@ -72,6 +72,15 @@ public class Controller{
     }
 
     @FXML
+    void home(MouseEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(tableViewScene);
+        window.showAndWait();
+    }
+
+    @FXML
     void exit(MouseEvent event) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("close.fxml"));
         Parent root = fxmlLoader.load();

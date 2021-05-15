@@ -32,7 +32,7 @@ public class Main extends Application {
         primaryStage.setMaxWidth(900);
         primaryStage.setMaxHeight(506);
         primaryStage.setMinWidth(900);
-        primaryStage.setMinHeight(560);
+        primaryStage.setMinHeight(543);
 
         primaryStage.setOnCloseRequest(event -> {
             Controller exit = new Controller();
