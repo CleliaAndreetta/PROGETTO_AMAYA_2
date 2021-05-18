@@ -13,6 +13,7 @@
             </font></Text>
         <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
         <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai5f" text="Decidi di ascoltare &#10;Harrison&#10;" textAlignment="CENTER" />
-        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai4b1" text="Decidi di ascoltare &#10;Gwen" textAlignment="CENTER" />
+        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" text="Decidi di ascoltare &#10;Gwen" textAlignment="CENTER" />
     </children>
 </AnchorPane>
+
