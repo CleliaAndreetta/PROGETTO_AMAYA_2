@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Text layoutX="69.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gwen tramite le sue conoscenze scopre chi si cela dietro il profilo di   &#10;          @Paranoid&#10;&#10;&#10;&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
+            <font>
+                <Font size="14.0" />
+            </font></Text>
+        <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
+        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai4b1" text="Decidi di affrontare Ron" textAlignment="CENTER" />
+        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai6b" text="Decidi di denunciare l'accaduto ai professori" textAlignment="CENTER" />
+        <Button layoutX="705.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#home" text="HOME" />
+    </children>
+</AnchorPane>
+

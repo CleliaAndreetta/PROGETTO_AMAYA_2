@@ -106,6 +106,44 @@ public class Controller{
         window.setScene(tableViewScene);
         window.showAndWait();
     }
+
+    @FXML
+    void vai6b(MouseEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("6b.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(tableViewScene);
+        window.showAndWait();
+    }
+
+    @FXML
+    void vai7c(MouseEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("7c.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(tableViewScene);
+        window.showAndWait();
+    }
+
+    @FXML
+    void vai8(MouseEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("8.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(tableViewScene);
+        window.showAndWait();
+
+    }
+
+    @FXML
+    void vaiMorale3(MouseEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("morale3.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(tableViewScene);
+        window.showAndWait();
+    }
+
     @FXML
     void home(MouseEvent event) throws IOException {
         Parent tableViewParent = FXMLLoader.load(getClass().getResource("sample.fxml"));
