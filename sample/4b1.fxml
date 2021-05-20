@@ -7,12 +7,14 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="69.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E’ mattina e amaya sta facendo(colazione/un’altra cosa facile da disegnare)&#10;&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
+        <Text layoutX="119.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;&lt;E’ arrivato il momento, devo farmi coraggio e coglierlo in un momento in cui non sia con il suo gruppo&gt;&gt;&#10;Amaya incontra Ron il quale all’arrivo di lei assume un atteggiamento arrogante. &#10;“So che sei stato tu a postare la mia foto, vorrei chiederti ti eliminarla...”&#10;“Che permalosa, volevo solo scherzare un po’”&#10;“Va bene, però lo scherzo è bello quando dura poco quindi ora toglila per favore”&#10;“Io faccio quello che voglio, non mi faccio intimorire dalle ragazze come te. Adesso vattene () che ho di meglio da fare”&#10;&#10;&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
             <font>
                 <Font size="14.0" />
             </font></Text>
-        <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" text="Decidi di stare a casa &#10;da scuola&#10;" textAlignment="CENTER" />
-        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" text="decidi di andare&#10; a scuola" textAlignment="CENTER" />
+        <Button layoutX="813.0" layoutY="444.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
+        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai5a" text="Decidi di richiamare &#10;la sua attenzione&#10;" textAlignment="CENTER" />
+        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" text="Decidi di denunciare &#10;la ssituazione alla professoressa" textAlignment="CENTER" />
+      <Text layoutX="285.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ron si incammina verso la classe di Storia. " />
+      <Button layoutX="807.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#home" text="HOME" />
     </children>
 </AnchorPane>

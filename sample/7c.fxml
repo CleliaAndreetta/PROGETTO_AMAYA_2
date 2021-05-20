@@ -7,12 +7,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="69.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya spiega la situazione alla professoressa, la quale decide di far parlare &#10;         direttamente i due interessati  " textAlignment="CENTER" wrappingWidth="546.3307495117188">
+        <Text layoutX="69.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“So che sei stato tu a postare la mia foto, vorrei chiederti di eliminarla...”&#10;         “Che permalosa, volevo solo scherzare un po’ ”&#10;         “Va bene, però lo scherzo è bello quando dura poco quindi ora toglila per favore”&#10;         “Va bene, ma solo perché c’è anche la professoressa che me lo chiede”&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
             <font>
                 <Font size="14.0" />
             </font></Text>
         <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="342.0" layoutY="366.0" mnemonicParsing="false" onMouseClicked="#vai7" text="AVANTI" textAlignment="CENTER" />
+        <Button layoutX="342.0" layoutY="366.0" mnemonicParsing="false" onMouseClicked="#vai8" text="AVANTI" textAlignment="CENTER" />
         <Button layoutX="705.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#home" text="HOME" />
     </children>
 </AnchorPane>

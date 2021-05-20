@@ -99,6 +99,24 @@ public class Controller{
     }
 
     @FXML
+    void vai5a(MouseEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("5a.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(tableViewScene);
+        window.showAndWait();
+    }
+
+    @FXML
+    void vai5e(MouseEvent event) throws IOException {
+        Parent tableViewParent = FXMLLoader.load(getClass().getResource("5e.fxml"));
+        Scene tableViewScene = new Scene(tableViewParent);
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(tableViewScene);
+        window.showAndWait();
+    }
+
+    @FXML
     void vai5f(MouseEvent event) throws IOException {
         Parent tableViewParent = FXMLLoader.load(getClass().getResource("5f.fxml"));
         Scene tableViewScene = new Scene(tableViewParent);
