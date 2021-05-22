@@ -7,13 +7,11 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="90.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya e Gwen, raggiunte da Harrison, si incontrano al parco. &#10;&#10;Harrison le dice “Amaya tranquilla, lo sai che quelle persone hanno solamente&#10;bisogno di attenzioni”.&#10;&#10;Gwen le dice “Non ascoltare Harrison, secondo me dovresti farti coraggio ed&#10;affrontare questo @Paranoid”." textAlignment="CENTER" wrappingWidth="546.3307495117188">
+        <Text layoutX="90.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La situazione si è tranquillizzata definitivamente e ora puoi di nuovo tornare a scuola &#10;         senza preoccupazioni  " textAlignment="CENTER" wrappingWidth="546.3307495117188">
             <font>
                 <Font size="14.0" />
             </font></Text>
         <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai5f" text="Decidi di ascoltare &#10;Harrison&#10;" textAlignment="CENTER" />
-        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" text="Decidi di ascoltare &#10;Gwen" textAlignment="CENTER" />
+        <Button layoutX="315.0" layoutY="346.0" mnemonicParsing="false" onMouseClicked="#vaiMorale2" text="AVANTI&#10;" textAlignment="CENTER" />
     </children>
 </AnchorPane>
-

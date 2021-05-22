@@ -12,7 +12,7 @@
                 <Font size="14.0" />
             </font></Text>
         <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#Vai4a" text="Decidi di stare a casa &#10;da scuola&#10;" textAlignment="CENTER" />
+        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai4a" text="Decidi di stare a casa &#10;da scuola&#10;" textAlignment="CENTER" />
         <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai4b2" text="decidi di andare&#10; a scuola" textAlignment="CENTER" />
     </children>
 </AnchorPane>
