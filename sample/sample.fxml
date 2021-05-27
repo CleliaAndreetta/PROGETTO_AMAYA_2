@@ -16,9 +16,9 @@
             <Font name="Optima" size="12.0" />
          </font></Button>
       <Text layoutX="250.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="196.00001525878906" />
-      <Text fill="#3d2b1f" layoutX="255.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le scelte di Amaya&#10;">
+      <Text fill="#3d2b1f" layoutX="280.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Le scelte di Amaya&#10;">
          <font>
-            <Font name="Optima" size="48.0" />
+            <Font name="Gabriola" size="60.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />

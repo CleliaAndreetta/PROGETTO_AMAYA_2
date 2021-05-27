@@ -6,13 +6,13 @@
 <?import javafx.scene.text.Text?>
 <?extends Controller.java?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/55/ee/c1/55eec1570d96c09b82d0667b0aa98471.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/d3/88/d7/d388d7dad0c94aab771379eadf687850.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
         <Text layoutX="300.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La tua storia si è conclusa in modo negativo! Continuando ad evitare di affrontare il problema si è addentrata in una personalità sempre più triste ed autodistruttiva, che l’ha portata ad una chiusura in se stessa e ad un abbandono totale della sua vita. Ci sono molti modi migliori per affrontare uno di questi episodi, purtroppo molto comuni, ma bisogna comunque sempre lottare perchè alla fine tutto può cambiare." wrappingWidth="298.99745178222656">
             <font>
                 <Font name="Papyrus" size="14.0" />
             </font></Text>
-        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit"  style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="EXIT" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="EXIT" />
         <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
             <font>
                 <Font name="Optima" size="12.0" />
