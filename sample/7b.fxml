@@ -11,8 +11,8 @@
             <font>
                 <Font size="14.0" />
             </font></Text>
-        <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="217.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#vaiMorale4" text="AVANTI" textAlignment="CENTER" />
-        <Button layoutX="705.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#home" text="HOME" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
+        <Button layoutX="217.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#vaiMorale4" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="AVANTI" textAlignment="CENTER" />
+        <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
     </children>
 </AnchorPane>

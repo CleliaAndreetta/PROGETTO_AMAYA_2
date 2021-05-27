@@ -11,9 +11,9 @@
             <font>
                 <Font size="14.0" />
             </font></Text>
-        <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="442.0" layoutY="307.0" mnemonicParsing="false" onMouseClicked="#vai7b" text="Decidi di fare finta di nulla" textAlignment="CENTER" />
-        <Button layoutX="705.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#home" text="HOME" />
-      <Button layoutX="165.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#vai7a" text="Decidi di ringraziarlo" textAlignment="CENTER" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
+        <Button layoutX="442.0" layoutY="307.0" mnemonicParsing="false" onMouseClicked="#vai7b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di fare finta di nulla" textAlignment="CENTER" />
+        <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
+      <Button layoutX="165.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#vai7a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ringraziarlo" textAlignment="CENTER" />
     </children>
 </AnchorPane>

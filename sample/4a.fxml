@@ -11,10 +11,10 @@
             <font>
                 <Font size="14.0" />
             </font></Text>
-        <Button layoutX="818.0" layoutY="443.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="213.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#vai4b2" text="Decidi di dare retta a &#10;Gwen&#10;" textAlignment="CENTER" />
-        <Button layoutX="597.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#vai5d" text="Dedici di non ascoltare&#10;Gwen" textAlignment="CENTER" />
-      <Button layoutX="732.0" layoutY="446.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
+        <Button layoutX="213.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#vai4b2" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di dare retta a &#10;Gwen&#10;" textAlignment="CENTER" />
+        <Button layoutX="597.0" layoutY="320.0" mnemonicParsing="false" onMouseClicked="#vai5d" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Dedici di non ascoltare&#10;Gwen" textAlignment="CENTER" />
+      <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
          <font>
             <Font name="Optima" size="12.0" />
          </font>

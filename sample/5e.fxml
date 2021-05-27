@@ -11,10 +11,10 @@
             <font>
                 <Font size="14.0" />
             </font></Text>
-        <Button layoutX="627.0" layoutY="434.0" mnemonicParsing="false" onMouseClicked="#exit" text="EXIT" />
-        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai4b1" text="Decidi di affrontare Ron" textAlignment="CENTER" />
-        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai6b" text="Decidi di denunciare l'accaduto ai professori" textAlignment="CENTER" />
-        <Button layoutX="705.0" layoutY="43.0" mnemonicParsing="false" onMouseClicked="#home" text="HOME" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
+        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai4b1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di affrontare Ron" textAlignment="CENTER" />
+        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai6b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di denunciare l'accaduto ai professori" textAlignment="CENTER" />
+        <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
     </children>
 </AnchorPane>
 
