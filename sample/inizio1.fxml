@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -12,7 +13,7 @@
             <Font name="Optima" size="12.0" />
          </font></Button>
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
-      <Label layoutX="51.0" layoutY="86.0" prefHeight="203.0" prefWidth="411.0" style="-fx-background-color: #F0F8FF; -fx-background-radius: 10px; -fx-border-color: #E6E6FA; -fx-border-radius: 10px;" text="Amaya torna da scuola, è in autobus e le arriva una notifica dal social &#10;MyView: “Sei stata taggata in un post pubblicato da @Parnoid “,&#10;aprendo la notifica scopre che era una foto di lei () con una caption &#10;offensiva, l’inserzione stava raggiungendo sempre più visualizzazioni,&#10;e i commenti di derisione crescevano di conseguenza.&#10;&#10;" textAlignment="JUSTIFY">
+      <Label alignment="CENTER" layoutX="71.0" layoutY="116.0" opacity="0.71" prefHeight="243.0" prefWidth="319.0" style="-fx-background-color: #F0F8FF; -fx-background-radius: 10px; -fx-border-color: #E6E6FA; -fx-border-radius: 10px;" text="Amaya torna da scuola, è in autobus e le arriva una &#10;notifica dal social MyView: &#10;“Sei stata taggata in un post pubblicato da &#10;@Parnoid “, aprendo la notifica scopre che&#10; era una foto di lei !!!!!!!!! con una caption &#10;offensiva, l’inserzione stava raggiungendo&#10;sempre più visualizzazioni, e i commenti di &#10;derisione crescevano di conseguenza.&#10;&#10;" textAlignment="CENTER">
          <font>
             <Font name="Papyrus" size="14.0" />
          </font>
@@ -23,4 +24,7 @@
          </font>
       </Button>
     </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
 </AnchorPane>

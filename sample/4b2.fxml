@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -7,13 +8,21 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="69.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya incontra i suoi amici e iniziano a parlare&#10;               Gwen:”Ehi Amaya come stai? Se ti danno fastidio li metto apposto io.”&#10;               Harrison:”Stai tranquilla Amaya vedrai che le cose si risolveranno da sole, con il &#10;               tempo le persone si stufano di tutto, anche dei pettegolezzi.”&#10;               Gwen:”No! Devi prendere la situazione in mano, le cose non cambieranno a meno &#10;              che non te ne occupi personalmente!”&#10;&#10;&#10;&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
+        <Text layoutX="132.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya incontra i suoi amici e iniziano a parlare&#10;               Gwen:”Ehi Amaya come stai? Se ti danno fastidio li metto apposto io.”&#10;               Harrison:”Stai tranquilla Amaya vedrai che le cose si risolveranno da sole, con il &#10;               tempo le persone si stufano di tutto, anche dei pettegolezzi.”&#10;               Gwen:”No! Devi prendere la situazione in mano, le cose non cambieranno a meno &#10;              che non te ne occupi personalmente!”&#10;&#10;&#10;&#10;" textAlignment="CENTER" wrappingWidth="654.3307495117188">
             <font>
-                <Font size="14.0" />
+                <Font name="Papyrus" size="14.0" />
             </font></Text>
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
-        <Button layoutX="134.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai5e" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Gwen&#10;" textAlignment="CENTER" />
-        <Button layoutX="459.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Harrison" textAlignment="CENTER" />
+        <Button layoutX="384.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#vai5e" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Gwen&#10;" textAlignment="CENTER" />
+        <Button layoutX="377.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Harrison" textAlignment="CENTER" />
       <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
+      <Text fill="#3d2b1f" layoutX="163.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya a scuola nel corridoio con lo sguardo di tutti addosso" textAlignment="CENTER" wrappingWidth="574.9974670410156">
+         <font>
+            <Font name="Gabriola" size="30.0" />
+         </font>
+      </Text>
     </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
 </AnchorPane>

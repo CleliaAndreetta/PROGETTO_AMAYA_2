@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -8,9 +9,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/d3/88/d7/d388d7dad0c94aab771379eadf687850.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="300.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La storia si è conclusa in modo positivo! Quando le cose si fanno più grandi di te è bene chiedere aiuto a chi ha la possibilità di aiutarti, che si tratti di un insegnante o di un genitore. Non serve che ti occupi di tutto da solo, ma cerca di tenere la situazione sotto controllo e evita di lasciare che le cose si evolvano da sole perché potrebbero peggiorare al punto di non poter più chiedere aiuto. " wrappingWidth="298.99745178222656">
+        <Text layoutX="249.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La storia si è conclusa in modo positivo! Quando le cose si fanno più grandi di te è bene chiedere aiuto a chi ha la possibilità di aiutarti, che si tratti di un insegnante o di un genitore. Non serve che ti occupi di tutto da solo, ma cerca di tenere la situazione sotto controllo e evita di lasciare che le cose si evolvano da sole perché potrebbero peggiorare al punto di non poter più chiedere aiuto. " textAlignment="CENTER" wrappingWidth="402.330810546875">
             <font>
-                <Font name="Papyrus" size="14.0" />
+                <Font name="Papyrus" size="20.0" />
             </font></Text>
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="EXIT" />
         <Button layoutX="716.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
@@ -19,4 +20,7 @@
             </font>
         </Button>
     </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
 </AnchorPane>

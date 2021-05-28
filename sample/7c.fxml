@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -7,12 +8,25 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="69.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“So che sei stato tu a postare la mia foto, vorrei chiederti di eliminarla...”&#10;         “Che permalosa, volevo solo scherzare un po’ ”&#10;         “Va bene, però lo scherzo è bello quando dura poco quindi ora toglila per favore”&#10;         “Va bene, ma solo perché c’è anche la professoressa che me lo chiede”&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
+        <Text layoutX="177.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="“So che sei stato tu a postare la mia foto, vorrei chiederti di eliminarla...”&#10;         “Che permalosa, volevo solo scherzare un po’ ”&#10;         “Va bene, però lo scherzo è bello quando dura poco quindi ora toglila per favore”&#10;         “Va bene, ma solo perché c’è anche la professoressa che me lo chiede”&#10;" textAlignment="CENTER" wrappingWidth="546.3307495117188">
             <font>
-                <Font size="14.0" />
+                <Font name="Papyrus" size="14.0" />
             </font></Text>
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
-        <Button layoutX="342.0" layoutY="366.0" mnemonicParsing="false" onMouseClicked="#vai8" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="AVANTI" textAlignment="CENTER" />
+        <Button layoutX="420.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#vai8" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="AVANTI" textAlignment="CENTER" />
         <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
+      <Text fill="#3d2b1f" layoutX="163.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya con la professoressa e Ron in una stanza della scuola" textAlignment="CENTER" wrappingWidth="574.9974670410156">
+         <font>
+            <Font name="Gabriola" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="#3d2b1f" layoutX="163.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Ron schiaccia delete" textAlignment="CENTER" wrappingWidth="574.9974670410156">
+         <font>
+            <Font name="Gabriola" size="22.0" />
+         </font>
+      </Text>
     </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
 </AnchorPane>

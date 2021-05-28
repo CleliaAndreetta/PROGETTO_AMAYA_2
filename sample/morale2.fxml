@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
@@ -8,9 +9,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/d3/88/d7/d388d7dad0c94aab771379eadf687850.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="300.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" La tua storia si è conclusa! Non è finita nel peggiori dei modi, ma neanche nei migliori. Lasciar correre le cose non è una pessima abitudine, ma sappi che se agisci e ti opponi al male che le altre persone ti fanno riesci a crescere di più e ad affermarti come persona, accrescendo anche la tua autostima e la stima degli altri nei tuoi confronti." wrappingWidth="298.99745178222656">
+        <Text layoutX="278.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" La tua storia si è conclusa! Non è finita nel peggiori dei modi, ma neanche nei migliori. Lasciar correre le cose non è una pessima abitudine, ma sappi che se agisci e ti opponi al male che le altre persone ti fanno riesci a crescere di più e ad affermarti come persona, accrescendo anche la tua autostima e la stima degli altri nei tuoi confronti." textAlignment="CENTER" wrappingWidth="343.6641540527344">
             <font>
-                <Font name="Papyrus" size="14.0" />
+                <Font name="Papyrus" size="20.0" />
             </font></Text>
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="EXIT" />
         <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
@@ -19,4 +20,7 @@
             </font>
         </Button>
     </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
 </AnchorPane>
