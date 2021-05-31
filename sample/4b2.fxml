@@ -12,17 +12,26 @@
             <font>
                 <Font name="Papyrus" size="14.0" />
             </font></Text>
-        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
-        <Button layoutX="384.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#vai5e" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Gwen&#10;" textAlignment="CENTER" />
-        <Button layoutX="377.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Harrison" textAlignment="CENTER" />
-      <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+        <Button layoutX="384.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#vai5e" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Gwen&#10;" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+        <Button layoutX="377.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Harrison" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <Text fill="#3d2b1f" layoutX="163.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya a scuola nel corridoio con lo sguardo di tutti addosso" textAlignment="CENTER" wrappingWidth="574.9974670410156">
          <font>
             <Font name="Gabriola" size="30.0" />
          </font>
       </Text>
     </children>
-   <cursor>
-      <Cursor fx:constant="HAND" />
-   </cursor>
 </AnchorPane>

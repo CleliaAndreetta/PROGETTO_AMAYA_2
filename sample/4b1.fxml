@@ -15,11 +15,29 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Text>
-        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
-        <Button layoutX="450.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#vai5a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di richiamare &#10;la sua attenzione&#10;" textAlignment="CENTER" />
-        <Button layoutX="450.0" layoutY="313.0" mnemonicParsing="false" onMouseClicked="#vai6b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di denunciare &#10;la situazione alla professoressa" textAlignment="CENTER" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Optima" size="12.0" />
+         </font></Button>
+        <Button layoutX="450.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#vai5a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di richiamare &#10;la sua attenzione&#10;" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Optima" size="12.0" />
+         </font></Button>
+        <Button layoutX="450.0" layoutY="313.0" mnemonicParsing="false" onMouseClicked="#vai6b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di denunciare &#10;la situazione alla professoressa" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <Text layoutX="285.0" layoutY="412.0" strokeType="OUTSIDE" strokeWidth="0.0" />
-      <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
+      <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <Text fill="#3d2b1f" layoutX="124.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Gwen tramite le sue conoscenze scopre chi si cela dietro il profilo di @Paranoid e quindi Amaya il giorno seguente decide di affrontare il ragazzo." textAlignment="CENTER" wrappingWidth="574.9974670410156">
          <font>
             <Font name="Gabriola" size="23.0" />
@@ -34,7 +52,4 @@
          </font>
       </Text>
     </children>
-   <cursor>
-      <Cursor fx:constant="HAND" />
-   </cursor>
 </AnchorPane>

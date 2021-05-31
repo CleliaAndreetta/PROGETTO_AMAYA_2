@@ -6,23 +6,32 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #F8F4FF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url(&quot;https://i.pinimg.com/originals/a8/ca/96/a8ca96a46189b29b2bc4a3706dcdf623.png&quot;);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
         <Text layoutX="273.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gwen tramite le sue conoscenze scopre chi si cela dietro il profilo di  @Paranoid&#10;&#10;&#10;&#10;" textAlignment="CENTER" wrappingWidth="353.6640625">
             <font>
                 <Font name="Papyrus" size="17.0" />
             </font></Text>
-        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
-        <Button layoutX="163.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#vai4b1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di affrontare Ron" textAlignment="CENTER" />
-        <Button layoutX="510.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#vai6b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di denunciare l'accaduto ai professori" textAlignment="CENTER" />
-        <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+        <Button layoutX="163.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#vai4b1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di affrontare Ron" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+        <Button layoutX="510.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#vai6b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di denunciare l'accaduto ai professori" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+        <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <Text fill="#3d2b1f" layoutX="163.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya e Gwen da sole" textAlignment="CENTER" wrappingWidth="574.9974670410156">
          <font>
             <Font name="Gabriola" size="30.0" />
          </font>
       </Text>
     </children>
-   <cursor>
-      <Cursor fx:constant="HAND" />
-   </cursor>
 </AnchorPane>

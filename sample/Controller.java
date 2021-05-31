@@ -9,9 +9,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import javax.swing.*;
 import java.io.IOException;
 
 public class Controller{
@@ -22,13 +24,22 @@ public class Controller{
     @FXML
     private TextField nome;
 
-    String nomeInput;
+    @FXML
+    private Text alert;
+
+    boolean res = false;
+    Parent inizio;
 
     @FXML
     void onClick(MouseEvent event) throws IOException {
-        Parent tableViewParent = FXMLLoader.load(getClass().getResource("introduzione.fxml"));
-        System.out.println(nomeInput);
-        Scene tableViewScene = new Scene(tableViewParent);
+       if (res==true){
+           inizio = FXMLLoader.load(getClass().getResource("introduzione.fxml"));
+       }else{
+           alert.setText("Devi inserire il tuo nome");
+       }
+
+        Scene tableViewScene = new Scene(inizio);
+
         //This line gets the Stage information
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(tableViewScene);
@@ -267,8 +278,12 @@ public class Controller{
 
     //prende un parametro in input (sample)
     @FXML
-    void nome(KeyEvent event) {
-       nomeInput = (String) nome.getText();
+    boolean nome(KeyEvent event) {
+        String nomeInput = (String) nome.getText();
+        if (nomeInput != null){
+            res = true;
+        }
+        return res;
     }
 }
 

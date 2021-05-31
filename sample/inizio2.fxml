@@ -12,13 +12,28 @@
             <font>
                 <Font name="Papyrus" size="16.0" />
             </font></Text>
-        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT" />
-      <Button layoutX="161.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai3a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di non uscire e &#10;di rimanere a casa" textAlignment="CENTER" />
-      <Button layoutX="182.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#vai3b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Accetti l’invito" />
+        <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="161.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai3a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di non uscire e &#10;di rimanere a casa" textAlignment="CENTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="182.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#vai3b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Accetti l’invito">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Optima" size="12.0" />
+         </font></Button>
       <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
          <font>
             <Font name="Optima" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <Text fill="#3d2b1f" layoutX="229.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya dopo essersi messa a letto in lacrime con il telefono illuminato sul comodino." textAlignment="CENTER" wrappingWidth="458.3308410644531">
          <font>
@@ -26,7 +41,4 @@
          </font>
       </Text>
     </children>
-   <cursor>
-      <Cursor fx:constant="HAND" />
-   </cursor>
 </AnchorPane>

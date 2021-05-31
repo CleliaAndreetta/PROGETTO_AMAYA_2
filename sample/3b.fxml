@@ -12,19 +12,31 @@
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT">
          <font>
             <Font name="Optima" size="12.0" />
-         </font></Button>
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
         <Button layoutX="312.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare &#10;Harrison&#10;" textAlignment="CENTER">
          <font>
             <Font name="Optima" size="12.0" />
-         </font></Button>
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
         <Button layoutX="466.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai4b1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare &#10;Gwen" textAlignment="CENTER">
          <font>
             <Font name="Optima" size="12.0" />
-         </font></Button>
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <Button layoutX="722.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
          <font>
             <Font name="Optima" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
       <Label alignment="CENTER" layoutX="202.0" layoutY="101.0" opacity="0.91" prefHeight="239.0" prefWidth="498.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Amaya e Gwen, raggiunte da Harrison, si incontrano al parco. &#10;&#10;Harrison le dice “Amaya tranquilla, lo sai che quelle persone hanno &#10;solamente bisogno di attenzioni”.&#10;&#10;Gwen le dice “Non ascoltare Harrison, secondo me dovresti farti coraggio&#10;ed affrontare questo @Paranoid”." textAlignment="CENTER">
          <font>
@@ -37,7 +49,4 @@
          </font>
       </Text>
     </children>
-   <cursor>
-      <Cursor fx:constant="HAND" />
-   </cursor>
 </AnchorPane>

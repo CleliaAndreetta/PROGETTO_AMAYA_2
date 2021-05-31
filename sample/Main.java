@@ -34,10 +34,13 @@ public class Main extends Application {
         primaryStage.setMinWidth(900);
         primaryStage.setMinHeight(543);
 
+
+
         primaryStage.setOnCloseRequest(event -> {
             Controller exit = new Controller();
             try {
                 exit.exit(e);
+                exit.no(e);
             } catch (IOException ioException) {
                 ioException.printStackTrace();
             }

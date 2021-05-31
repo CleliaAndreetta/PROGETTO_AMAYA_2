@@ -9,22 +9,33 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/55/ee/c1/55eec1570d96c09b82d0667b0aa98471.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Text layoutX="34.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bene , la tua missione è aiutare Amaya a superare un&#10;momento critico della sua adolescenza, affrontando eventi piuttosto comuni e poco piacevoli e cercando di uscirne nel modo migliore. Buona fortuna!&#10;               &#10;Amaya: ragazza di 15 anni, frequentante la seconda superiore e con un carattere piuttosto introverso, a causa di una critica situazione familiare. Non ha molti amici, fatta eccezione per Gwen e Harrison, suoi compagni di classe.&#10;" wrappingWidth="222.99745178222656">
+      <Text fx:id="intro" layoutX="34.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bene ,  la tua missione è aiutare Amaya a superare un&#10;momento critico della sua adolescenza, affrontando eventi piuttosto comuni e poco piacevoli e cercando di uscirne nel modo migliore. Buona fortuna!&#10;               &#10;Amaya: ragazza di 15 anni, frequentante la seconda superiore e con un carattere piuttosto introverso, a causa di una critica situazione familiare. Non ha molti amici, fatta eccezione per Gwen e Harrison, suoi compagni di classe.&#10;" wrappingWidth="222.99745178222656">
          <font>
             <Font name="Papyrus" size="14.0" />
          </font></Text>
       <Button layoutX="114.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#vaiInizio1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="AVANTI">
          <font>
             <Font name="Optima" size="12.0" />
-         </font></Button>
-      <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="EXIT" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-border-radius: 10px; -fx-background-radius: 10px;" text="EXIT">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
       <Button layoutX="716.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#home" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="HOME">
          <font>
             <Font name="Optima" size="12.0" />
          </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
+      <Text fill="#0000008d" layoutX="770.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disegno di Matilde Fellet">
+         <font>
+            <Font name="Segoe Script" size="8.0" />
+         </font>
+      </Text>
    </children>
-   <cursor>
-      <Cursor fx:constant="HAND" />
-   </cursor>
 </AnchorPane>
