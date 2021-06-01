@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/43/2f/fa/432ffa9d00d750b2c2b7799c441af240.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url(&quot;https://i.pinimg.com/originals/43/2f/fa/432ffa9d00d750b2c2b7799c441af240.png&quot;);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT">
          <font>
@@ -16,14 +16,14 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-        <Button layoutX="312.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare &#10;Harrison&#10;" textAlignment="CENTER">
+        <Button layoutX="269.0" layoutY="439.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare &#10;Harrison&#10;" textAlignment="CENTER">
          <font>
             <Font name="Optima" size="12.0" />
          </font>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-        <Button layoutX="466.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai4b1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare &#10;Gwen" textAlignment="CENTER">
+        <Button layoutX="510.0" layoutY="439.0" mnemonicParsing="false" onMouseClicked="#vai4b1" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare &#10;Gwen" textAlignment="CENTER">
          <font>
             <Font name="Optima" size="12.0" />
          </font>
@@ -38,16 +38,11 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Label alignment="CENTER" layoutX="202.0" layoutY="101.0" opacity="0.91" prefHeight="239.0" prefWidth="498.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Amaya e Gwen, raggiunte da Harrison, si incontrano al parco. &#10;&#10;Harrison le dice “Amaya tranquilla, lo sai che quelle persone hanno &#10;solamente bisogno di attenzioni”.&#10;&#10;Gwen le dice “Non ascoltare Harrison, secondo me dovresti farti coraggio&#10;ed affrontare questo @Paranoid”." textAlignment="CENTER">
+      <Label alignment="CENTER" layoutX="97.0" layoutY="14.0" opacity="0.91" prefHeight="165.0" prefWidth="669.0" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Amaya e Gwen, raggiunte da Harrison, si incontrano al parco. &#10;&#10;Harrison le dice “Amaya tranquilla, lo sai che quelle persone hanno solamente bisogno di attenzioni”.&#10;&#10;Gwen le dice “Non ascoltare Harrison, secondo me dovresti farti coraggio ed affrontare questo @Paranoid”." textAlignment="CENTER">
          <font>
             <Font name="Papyrus" size="14.0" />
          </font>
       </Label>
-      <Text fill="#3d2b1f" layoutX="129.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya e Gwen, raggiunte da Harrison, si trovano al parco sedute su una panchina all'ombra di una quercia." textAlignment="CENTER" wrappingWidth="574.9974670410156">
-         <font>
-            <Font name="Gabriola" size="24.0" />
-         </font>
-      </Text>
       <Text fill="#ffffff8c" layoutX="775.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disegno di Matilde Fellet">
          <font>
             <Font name="Segoe Script" size="8.0" />
