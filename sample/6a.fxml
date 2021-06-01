@@ -6,9 +6,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/90/7b/b9/907bb96ca0e961a0edddd0419982f276.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="136.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;&lt;Domani devo affrontarlo di nuovo per essere sicura che mantenga quanto detto&gt;&gt;&#10;Arriva una notifica “Il post di @paranoid in cui sei stata taggata, è stato rimosso”" textAlignment="CENTER" wrappingWidth="510.99744415283203">
+        <Text layoutX="119.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;&lt;Domani devo affrontarlo di nuovo per essere sicura che mantenga quanto detto&gt;&gt;&#10;Arriva una notifica “Il post di @paranoid in cui sei stata taggata, è stato rimosso”" textAlignment="CENTER" wrappingWidth="289.99744415283203">
             <font>
                 <Font name="Papyrus" size="14.0" />
             </font></Text>
@@ -16,7 +16,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-        <Button layoutX="419.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#vai7b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di fare finta di nulla" textAlignment="CENTER">
+        <Button layoutX="186.0" layoutY="381.0" mnemonicParsing="false" onMouseClicked="#vai7b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di fare finta di nulla" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -27,7 +27,7 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="204.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#vai7a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ringraziarlo" textAlignment="CENTER">
+      <Button layoutX="200.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#vai7a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ringraziarlo" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -44,9 +44,14 @@
             <Font name="Gabriola" size="24.0" />
          </font>
       </Text>
-      <Text layoutX="144.0" layoutY="296.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il giorno dopo:" textAlignment="CENTER" wrappingWidth="120.0">
+      <Text layoutX="144.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Il giorno dopo:" textAlignment="CENTER" wrappingWidth="120.0">
          <font>
             <Font name="Papyrus" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#ffffff8c" layoutX="776.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disegno di Matilde Fellet">
+         <font>
+            <Font name="Segoe Script" size="8.0" />
          </font>
       </Text>
     </children>

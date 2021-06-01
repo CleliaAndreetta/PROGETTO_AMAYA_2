@@ -6,9 +6,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url('https://i.pinimg.com/originals/3d/18/de/3d18deea4454d7446ae50b65b0764e43.png');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="42.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una volta arrivata a casa sente suonare il telefono: è Gwen, la sua amica che la invita ad uscire per affrontare la questione. &#10;" wrappingWidth="458.33084106445324">
+        <Text layoutX="43.0" layoutY="191.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Una volta arrivata a casa sente suonare il telefono: è Gwen, la sua amica che la invita ad uscire per affrontare la questione. &#10;" wrappingWidth="312.33084106445324">
             <font>
                 <Font name="Papyrus" size="16.0" />
             </font></Text>
@@ -16,11 +16,11 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="161.0" layoutY="363.0" mnemonicParsing="false" onMouseClicked="#vai3a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di non uscire e &#10;di rimanere a casa" textAlignment="CENTER">
+      <Button layoutX="94.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#vai3a" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di non uscire e &#10;di rimanere a casa" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Button layoutX="182.0" layoutY="315.0" mnemonicParsing="false" onMouseClicked="#vai3b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Accetti l’invito">
+      <Button layoutX="115.0" layoutY="310.0" mnemonicParsing="false" onMouseClicked="#vai3b" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Accetti l’invito">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -38,6 +38,11 @@
       <Text fill="#3d2b1f" layoutX="229.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya dopo essersi messa a letto in lacrime con il telefono illuminato sul comodino." textAlignment="CENTER" wrappingWidth="458.3308410644531">
          <font>
             <Font name="Gabriola" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#ffffff8c" layoutX="778.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disegno di Matilde Fellet">
+         <font>
+            <Font name="Segoe Script" size="8.0" />
          </font>
       </Text>
     </children>
