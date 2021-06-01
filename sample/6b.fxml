@@ -18,7 +18,7 @@
          </cursor></Button>
         <Button layoutX="420.0" layoutY="253.0" mnemonicParsing="false" onMouseClicked="#vai7c" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="AVANTI" textAlignment="CENTER">
          <cursor>
-            <Cursor fx:constant="MOVE" />
+            <Cursor fx:constant="HAND" />
          </cursor>
          <font>
             <Font name="Optima" size="12.0" />
