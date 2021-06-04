@@ -2,25 +2,22 @@
 
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url(&quot;https://i.pinimg.com/originals/63/bb/71/63bb71023cb0d2ac21263feeb606fd7b.png&quot;);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
-        <Text layoutX="132.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya incontra i suoi amici e iniziano a parlare&#10;               Gwen:”Ehi Amaya come stai? Se ti danno fastidio li metto apposto io.”&#10;               Harrison:”Stai tranquilla Amaya vedrai che le cose si risolveranno da sole, con il &#10;               tempo le persone si stufano di tutto, anche dei pettegolezzi.”&#10;               Gwen:”No! Devi prendere la situazione in mano, le cose non cambieranno a meno &#10;              che non te ne occupi personalmente!”&#10;&#10;&#10;&#10;" textAlignment="CENTER" wrappingWidth="654.3307495117188">
-            <font>
-                <Font name="Papyrus" size="14.0" />
-            </font></Text>
         <Button layoutX="802.0" layoutY="436.0" mnemonicParsing="false" onMouseClicked="#exit" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="EXIT">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-        <Button layoutX="384.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#vai5e" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Gwen&#10;" textAlignment="CENTER">
+        <Button layoutX="184.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#vai5e" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Gwen&#10;" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-        <Button layoutX="377.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Harrison" textAlignment="CENTER">
+        <Button layoutX="177.0" layoutY="374.0" mnemonicParsing="false" onMouseClicked="#vai5f" style="-fx-background-color: #F0F8FF; -fx-border-color: #E6E6FA; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Decidi di ascoltare Harrison" textAlignment="CENTER">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
@@ -28,9 +25,19 @@
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor></Button>
-      <Text fill="#3d2b1f" layoutX="163.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya a scuola nel corridoio con lo sguardo di tutti addosso" textAlignment="CENTER" wrappingWidth="574.9974670410156">
+      <Text fill="#3d2b1f" layoutX="23.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya a scuola nel corridoio con lo sguardo di tutti addosso" textAlignment="CENTER" wrappingWidth="574.9974670410156">
          <font>
             <Font name="Gabriola" size="30.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" layoutX="23.0" layoutY="91.0" opacity="0.71" prefHeight="203.0" prefWidth="471.0" style="-fx-background-color: #F0F8FF; -fx-background-radius: 10px; -fx-border-color: #E6E6FA; -fx-border-radius: 10px;" text="Amaya incontra i suoi amici e iniziano a parlare&#10; Gwen:”Ehi Amaya come stai? Se ti danno fastidio li metto apposto io.”&#10;  Harrison:”Stai tranquilla Amaya vedrai che le cose si risolveranno &#10;da sole, con il tempo le persone si stufano di tutto, anche dei pettegolezzi.”&#10; Gwen:”No! Devi prendere la situazione in mano, le cose non cambieranno &#10;a meno che non te ne occupi personalmente!”&#10;">
+         <font>
+            <Font name="Papyrus" size="14.0" />
+         </font>
+      </Label>
+      <Text fill="#2423238c" layoutX="775.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disegno di Matilde Fellet">
+         <font>
+            <Font name="Segoe Script" size="8.0" />
          </font>
       </Text>
     </children>
