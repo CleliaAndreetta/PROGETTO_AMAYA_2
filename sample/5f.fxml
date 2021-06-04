@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url(&quot;https://i.pinimg.com/originals/63/bb/71/63bb71023cb0d2ac21263feeb606fd7b.png&quot;);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
         <Text layoutX="264.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="La situazione si è tranquillizzata definitivamente e ora puoi di nuovo tornare a scuola &#10;senza preoccupazioni  " textAlignment="CENTER" wrappingWidth="222.33071899414062">
             <font>
