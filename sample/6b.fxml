@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-color: #B47B77;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="900.0" style="-fx-background-image: url(&quot;https://i.pinimg.com/originals/af/79/a9/af79a99c8d6524587ee83fc1cce0859d.png&quot;);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <children>
         <Text layoutX="236.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amaya spiega la situazione alla professoressa, la quale decide di far parlare direttamente i due interessati." textAlignment="CENTER" wrappingWidth="428.9974670410156">
             <font>
